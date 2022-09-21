@@ -1,0 +1,53 @@
+/*head*/
+
+/*body*/
+body{
+    background-image: url(../imagenes/simple\ 2.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+#navegacion{            /*lista desordenada*/
+    list-style: none;
+    padding: 0%;
+    background-color: rgb(79, 79, 235);
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+#navegacion li a{       /*enlaces de la lista desordenada*/
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+#navegacion li{         /*listas*/
+    display: inline-block;
+    text-align: center;
+}
+#navegacion li a:hover{
+    background-color: deepskyblue;
+}
+
+
+h1, h2, h3{                    /*titulo*/
+    color: #28fae8;
+}
+p{                     /*parrafos*/
+    color: #f6f7f3;
+    font-weight: bold;
+    font-family: 'Crimson Text', serif;
+    font-size: 100%;
+}
+
+.lista-footer li{
+    display: inline-block;
+}
+
+.lista-footer li a{
+    color: rgb(246, 252, 252);
+}
+
+.formulario{
+    color: rgb(255, 255, 255);
+}
