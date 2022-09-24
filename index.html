@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,49 +11,86 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
 </head>
-<body> 
+
+<body>
     <header>
-        <div>
-            <img src="https://as1.ftcdn.net/v2/jpg/01/84/05/50/1000_F_184055018_zjytpwEZWzVYiPeCQDgbxnSMQWpASfVI.jpg" width="200" alt="voley logo">
+        <a href="#"><img src="./imagenes/Mi_proyecto-1-removebg-preview.png" width="200" alt="voley logo"></a>
+        <div class="container justify-content-center">
+            <nav class="navbar navbar-expand-lg navbar-dark lista-d">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./paginas/torneos.html">torneos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./paginas/noticias.html">noticias</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    multimedia
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="./paginas/fotos.html">fotos</a></li>
+                                    <li><a class="dropdown-item" href="./paginas/videos.html">videos</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./paginas/contacto.html" tabindex="-1"
+                                    aria-disabled="true">contacto</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
         </div>
-        
-        <nav>
-            <ul id="navegacion">   
-                <li><a href="./index.html">inico</a></li>
-                <li><a href="./paginas/torneos.html">torneos</a></li>
-                <li><a href="./paginas/noticias.html">noticias</a></li>
-                <li><a href="./paginas/multimedia.html">multimedia</a></li>
-                <li><a href="./paginas/contacto.html">contacto</a></li>
-            </ul>
-        </nav>
     </header>
+
     <main>
         <section>
             <h1>CAMPEONES DE LA LIGA</h1>
-           <p>estos muchachos dieron todo en la cancha y se llevaron el trofeo para casa</p>
-           <img src="https://diarioxeneize.com/wp-content/uploads/2017/07/vo-3.jpg" width="300" alt="boca campeon">
+            <p>estos muchachos dieron todo en la cancha y se llevaron el trofeo para casa</p>
+            <img src="https://diarioxeneize.com/wp-content/uploads/2017/07/vo-3.jpg" width="300" alt="boca campeon">
         </section>
         <section>
             <div>
                 <h2>se viene el clasico de ferro vs colegiales</h2>
                 <p>se disputara en el estadio Hector Etchart, donde ferro seria el anfitrion del clasico</p>
-                <img src="https://www.estadiosdeargentina.com.ar/wp-content/uploads/2014/01/estadio-etchart-ferro02-1.jpg" width="200" alt="estadio de ferro">
+                <img src="https://www.estadiosdeargentina.com.ar/wp-content/uploads/2014/01/estadio-etchart-ferro02-1.jpg"
+                    width="200" alt="estadio de ferro">
             </div>
             <div>
                 <h3>se inaguro el nuevo estadio de UPCN san juan voley,despues de mucha espera</h3>
-                <p>posibilitara promover actividades saludables para las personas, y establecer un modo recreativo en la zona</p>
-                <img src="	https://live.staticflickr.com/65535/51687854508_5b74859562_b.jpg" width="200" alt="cancha de voley">
-                <img src="https://www.marcapersonalweb.com.ar/wp-content/uploads/2021/06/IMG-20210609-WA0052-1024x500.jpg" width="200" alt="cancha voley">
-                <img src="https://www.marcapersonalweb.com.ar/wp-content/uploads/2021/06/IMG-20210609-WA0053-768x577.jpg" width="200" alt="cancha de voley">
+                <p>posibilitara promover actividades saludables para las personas, y establecer un modo recreativo en la
+                    zona</p>
+                <img src="	https://live.staticflickr.com/65535/51687854508_5b74859562_b.jpg" width="200"
+                    alt="cancha de voley">
+                <img src="https://www.marcapersonalweb.com.ar/wp-content/uploads/2021/06/IMG-20210609-WA0052-1024x500.jpg"
+                    width="200" alt="cancha voley">
+                <img src="https://www.marcapersonalweb.com.ar/wp-content/uploads/2021/06/IMG-20210609-WA0053-768x577.jpg"
+                    width="200" alt="cancha de voley">
             </div>
         </section>
     </main>
-    
+
     <footer>
         <div class="footer">
             <h3>contactanos</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia odio ex ad officiis cum aliquam minus</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia odio ex ad officiis cum aliquam minus
+            </p>
             <nav>
                 <ul class="lista-footer">
                     <li><a href="">facebook</a></li>
@@ -62,5 +100,6 @@
             </nav>
         </div>
     </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
