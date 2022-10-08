@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box; }
+
+/*PIE DE PAGINA*/
+/*.lista-footer li{
+    display: inline-block;
+}
+
+
+
+.lista-footer li a{
+    color: hsl(180, 50%, 98%);
+}*/
+.lista-footer li {
+  display: inline-block; }
+  .lista-footer li a {
+    color: #f7fcfc; }
+
+/*head*/
+/*body*/
+body {
+  background-image: url(../imagenes/voley2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  height: 130vh;
+  background-position: center;
+  width: 100%; }
+
+/*NAVEGACION*/
+.lista-d {
+  background-color: rgba(0, 0, 0, 0.5);
+  list-style: none;
+  padding: 0%;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+
+.lista-d ul {
+  padding: 2%; }
+
+.lista-d ul li:hover {
+  background-color: deepskyblue; }
+
+/*titulo*/
+h1, h2, h3 {
+  color: black; }
+
+/*parrafos*/
+p {
+  color: #050508;
+  font-weight: bold;
+  font-family: 'Crimson Text', serif;
+  font-size: 100%; }
+
+/*carrusel*/
+/*.carousel-inner{
+    padding: 3%;
+    margin: 0%;
+}*/
+/*las card de las noticias*/
+.conteiner {
+  width: 90%;
+  margin: 2%;
+  padding: 0 auto; }
+
+.card {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin: 2%; }
+
+.card-text {
+  color: crimson; }
+
+/*fin de las card de las noticias*/
+/*las card de las fotos*/
+.foto {
+  display: inline-flex;
+  margin: auto;
+  border-top: solid 3px red;
+  border-bottom: solid 3px green;
+  border-left: solid 3px  yellow;
+  border-right: solid 3px blue; }
+
+/*formulario*/
+.formulario {
+  color: #5a18f5;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 2%; }
+
+/*PIE DE PAGINA*/
+/*.lista-footer li{
+    display: inline-block;
+}
+
+
+
+.lista-footer li a{
+    color: rgb(246, 252, 252);
+}*/

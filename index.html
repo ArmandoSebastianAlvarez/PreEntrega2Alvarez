@@ -16,7 +16,7 @@
 
 <body>
     <header>
-        <a href="#"><img src="./imagenes/Mi_proyecto-1-removebg-preview.png" width="200" alt="voley logo"></a>
+        <!--<a href="#"><img src="./imagenes/Mi_proyecto-1-removebg-preview.png" width="200" alt="voley logo"></a>-->
         <div class="container justify-content-center">
             <nav class="navbar navbar-expand-lg navbar-dark lista-d">
                 <div class="container-fluid">
@@ -61,44 +61,72 @@
 
     <main>
         <section>
-            <h1>CAMPEONES DE LA LIGA</h1>
-            <p>estos muchachos dieron todo en la cancha y se llevaron el trofeo para casa</p>
-            <img src="https://diarioxeneize.com/wp-content/uploads/2017/07/vo-3.jpg" width="300" alt="boca campeon">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./fotos/boca.webp" class="d-block w-100" alt="voley femenino-boca juniors">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>campeonas</h5>
+                      <p>las chicas de boca juniors le ganaron la final...</p>
+                      <a href="https://www.google.com/">leer</a>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./fotos/panteritas.jpg" class="d-block w-100" alt="voley panteritas-argentina">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>las panteritas campeonas</h5>
+                      <p>las panteritas salieron campeonas de la sudamericana tras ganarle a...</p>
+                      <a href="https://www.google.com/">leer</a>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./fotos/beach voley 2.webp" class="d-block w-100" alt="voley masculino-argentina">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>derrota y despedida</h5>
+                      <p>los chicos de beachvolley calleron por segunda vez...</p>
+                      <a href="https://www.google.com/">leer</a>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
         </section>
-        <section>
+
+        <!--<section>
             <div>
                 <h2>se viene el clasico de ferro vs colegiales</h2>
                 <p>se disputara en el estadio Hector Etchart, donde ferro seria el anfitrion del clasico</p>
-                <img src="https://www.estadiosdeargentina.com.ar/wp-content/uploads/2014/01/estadio-etchart-ferro02-1.jpg"
+                <img src="https://www.estadiosdeargentina.com.ar/wp-content/uploads/2014/01/estadio-etchart-ferro02-1.jpg" class="img-thumbnail"
                     width="200" alt="estadio de ferro">
             </div>
             <div>
                 <h3>se inaguro el nuevo estadio de UPCN san juan voley,despues de mucha espera</h3>
                 <p>posibilitara promover actividades saludables para las personas, y establecer un modo recreativo en la
                     zona</p>
-                <img src="	https://live.staticflickr.com/65535/51687854508_5b74859562_b.jpg" width="200"
+                <img src="	https://live.staticflickr.com/65535/51687854508_5b74859562_b.jpg" class="img-thumbnail" width="200"
                     alt="cancha de voley">
-                <img src="https://www.marcapersonalweb.com.ar/wp-content/uploads/2021/06/IMG-20210609-WA0052-1024x500.jpg"
+                <img src="https://www.marcapersonalweb.com.ar/wp-content/uploads/2021/06/IMG-20210609-WA0052-1024x500.jpg" class="img-thumbnail"
                     width="200" alt="cancha voley">
-                <img src="https://www.marcapersonalweb.com.ar/wp-content/uploads/2021/06/IMG-20210609-WA0053-768x577.jpg"
+                <img src="https://www.marcapersonalweb.com.ar/wp-content/uploads/2021/06/IMG-20210609-WA0053-768x577.jpg" class="img-thumbnail"
                     width="200" alt="cancha de voley">
             </div>
-        </section>
+        </section>-->
     </main>
 
     <footer>
-        <div class="footer">
-            <h3>contactanos</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia odio ex ad officiis cum aliquam minus
-            </p>
-            <nav>
-                <ul class="lista-footer">
-                    <li><a href="">facebook</a></li>
-                    <li><a href="">instagram</a></li>
-                    <li><a href="">outlook</a></li>
-                </ul>
-            </nav>
-        </div>
+       
     </footer>
     <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
